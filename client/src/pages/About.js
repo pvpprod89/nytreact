@@ -3,21 +3,27 @@ import Hero from "../components/Hero";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import SearchBar from "../components/Search";
 
 const About = () => (
   <div>
     <Hero backgroundImage="https://images.freeimages.com/images/large-previews/9db/newspaper-1489009.jpg">
       <h1>New York Times Article Scrubber</h1>
       <h2>Search articles!</h2>
-    </Hero> 
+    </Hero>
     <Container style={{ marginTop: 30 }}>
       <Row>
         <Col size="md-12">
           <h1>Welcome To New York Times Article Scrubber!</h1>
         </Col>
       </Row>
+
+      <div>
+        <SearchBar style={{ margintop: 30 }}/>
+      </div>
+
       <Row>
-        <Col size="md-12">
+        <Col size="md-12" style={{ marginTop: 30 }}>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
             aliquet diam tortor, id consequat mauris ullamcorper eu. Orci varius
