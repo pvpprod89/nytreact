@@ -9,7 +9,7 @@ const About = () => (
     <Hero backgroundImage="https://images.freeimages.com/images/large-previews/9db/newspaper-1489009.jpg">
       <h1>New York Times Article Scrubber</h1>
       <h2>Search articles!</h2>
-    </Hero>
+    </Hero> 
     <Container style={{ marginTop: 30 }}>
       <Row>
         <Col size="md-12">
